@@ -1,0 +1,28 @@
+float teste(float t,float a){
+    var c = "jOIJSOEJIoij";
+    a = 2;
+    var p = 't';
+    //print(a);
+    if(5>3){
+        return 9.8;
+    }
+    return 3.3;
+}
+
+int pipoca(){
+    return 1;
+}
+
+global var bb;
+global var hh[] = {0.5,5.9,1.4};
+int main()  
+{
+    var a = 3;
+    if(2 < 3){
+        //global var ll;
+        var a = 5;
+    }
+    var vetor2[] = {2,9,8};
+    vetor2.add(10);
+}
+

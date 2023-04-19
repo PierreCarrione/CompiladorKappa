@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/Pierre/Desktop/Faculdade/2021.3 ONLINE/Compiladores/Compiler'
+clear
+lex lexico.l
+yacc -d sintatico.y
+g++ -o glf y.tab.c -ll
+./glf < teste.kappa
+make: Leaving directory '/mnt/c/Users/Pierre/Desktop/Faculdade/2021.3 ONLINE/Compiladores/Compiler'
+ 
